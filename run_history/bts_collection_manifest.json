@@ -1,0 +1,450 @@
+{
+  "2024-01": {
+    "source": "https://www.transtats.bts.gov/ontime/",
+    "archive_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_1.zip",
+    "archive_file": "input_store\\bts_archives\\On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_1.zip",
+    "filtered_file": "input_store\\bts_arrivals\\bts_arrivals_2024-01.csv",
+    "archive_size_bytes": 27573265,
+    "scanned_rows": 547271,
+    "filtered_rows": 26209,
+    "airport_rows": {
+      "ORD": 20327,
+      "MDW": 5882
+    },
+    "downloaded_at": "2026-11-12T01:47:19+0300"
+  },
+  "2024-02": {
+    "source": "https://www.transtats.bts.gov/ontime/",
+    "archive_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_2.zip",
+    "archive_file": "input_store\\bts_archives\\On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_2.zip",
+    "filtered_file": "input_store\\bts_arrivals\\bts_arrivals_2024-02.csv",
+    "archive_size_bytes": 25086854,
+    "scanned_rows": 519221,
+    "filtered_rows": 24789,
+    "airport_rows": {
+      "ORD": 19552,
+      "MDW": 5237
+    },
+    "downloaded_at": "2026-11-12T01:47:56+0300"
+  },
+  "2024-03": {
+    "source": "https://www.transtats.bts.gov/ontime/",
+    "archive_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_3.zip",
+    "archive_file": "input_store\\bts_archives\\On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_3.zip",
+    "filtered_file": "input_store\\bts_arrivals\\bts_arrivals_2024-03.csv",
+    "archive_size_bytes": 29313663,
+    "scanned_rows": 591767,
+    "filtered_rows": 28975,
+    "airport_rows": {
+      "ORD": 22289,
+      "MDW": 6686
+    },
+    "downloaded_at": "2026-11-12T01:48:35+0300"
+  },
+  "2024-04": {
+    "source": "https://www.transtats.bts.gov/ontime/",
+    "archive_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_4.zip",
+    "archive_file": "input_store\\bts_archives\\On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_4.zip",
+    "filtered_file": "input_store\\bts_arrivals\\bts_arrivals_2024-04.csv",
+    "archive_size_bytes": 28540589,
+    "scanned_rows": 582185,
+    "filtered_rows": 30439,
+    "airport_rows": {
+      "ORD": 23650,
+      "MDW": 6789
+    },
+    "downloaded_at": "2026-11-12T01:49:15+0300"
+  },
+  "2024-05": {
+    "source": "https://www.transtats.bts.gov/ontime/",
+    "archive_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_5.zip",
+    "archive_file": "input_store\\bts_archives\\On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_5.zip",
+    "filtered_file": "input_store\\bts_arrivals\\bts_arrivals_2024-05.csv",
+    "archive_size_bytes": 31139902,
+    "scanned_rows": 609743,
+    "filtered_rows": 31818,
+    "airport_rows": {
+      "ORD": 24846,
+      "MDW": 6972
+    },
+    "downloaded_at": "2026-11-12T01:49:57+0300"
+  },
+  "2024-06": {
+    "source": "https://www.transtats.bts.gov/ontime/",
+    "archive_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_6.zip",
+    "archive_file": "input_store\\bts_archives\\On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_6.zip",
+    "filtered_file": "input_store\\bts_arrivals\\bts_arrivals_2024-06.csv",
+    "archive_size_bytes": 31226761,
+    "scanned_rows": 611132,
+    "filtered_rows": 31746,
+    "airport_rows": {
+      "ORD": 24209,
+      "MDW": 7537
+    },
+    "downloaded_at": "2026-11-12T01:50:40+0300"
+  },
+  "2024-07": {
+    "source": "https://www.transtats.bts.gov/ontime/",
+    "archive_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_7.zip",
+    "archive_file": "input_store\\bts_archives\\On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_7.zip",
+    "filtered_file": "input_store\\bts_arrivals\\bts_arrivals_2024-07.csv",
+    "archive_size_bytes": 34427174,
+    "scanned_rows": 634613,
+    "filtered_rows": 32411,
+    "airport_rows": {
+      "ORD": 24527,
+      "MDW": 7884
+    },
+    "downloaded_at": "2026-11-12T01:51:31+0300"
+  },
+  "2024-08": {
+    "source": "https://www.transtats.bts.gov/ontime/",
+    "archive_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_8.zip",
+    "archive_file": "input_store\\bts_archives\\On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_8.zip",
+    "filtered_file": "input_store\\bts_arrivals\\bts_arrivals_2024-08.csv",
+    "archive_size_bytes": 30854511,
+    "scanned_rows": 619025,
+    "filtered_rows": 32684,
+    "airport_rows": {
+      "ORD": 25483,
+      "MDW": 7201
+    },
+    "downloaded_at": "2026-11-12T01:52:09+0300"
+  },
+  "2024-09": {
+    "source": "https://www.transtats.bts.gov/ontime/",
+    "archive_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_9.zip",
+    "archive_file": "input_store\\bts_archives\\On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_9.zip",
+    "filtered_file": "input_store\\bts_arrivals\\bts_arrivals_2024-09.csv",
+    "archive_size_bytes": 28433978,
+    "scanned_rows": 582622,
+    "filtered_rows": 31687,
+    "airport_rows": {
+      "ORD": 24839,
+      "MDW": 6848
+    },
+    "downloaded_at": "2026-11-12T01:52:48+0300"
+  },
+  "2024-10": {
+    "source": "https://www.transtats.bts.gov/ontime/",
+    "archive_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_10.zip",
+    "archive_file": "input_store\\bts_archives\\On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_10.zip",
+    "filtered_file": "input_store\\bts_arrivals\\bts_arrivals_2024-10.csv",
+    "archive_size_bytes": 29418453,
+    "scanned_rows": 615497,
+    "filtered_rows": 31934,
+    "airport_rows": {
+      "ORD": 25190,
+      "MDW": 6744
+    },
+    "downloaded_at": "2026-11-12T01:53:25+0300"
+  },
+  "2024-11": {
+    "source": "https://www.transtats.bts.gov/ontime/",
+    "archive_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_11.zip",
+    "archive_file": "input_store\\bts_archives\\On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_11.zip",
+    "filtered_file": "input_store\\bts_arrivals\\bts_arrivals_2024-11.csv",
+    "archive_size_bytes": 28149354,
+    "scanned_rows": 575404,
+    "filtered_rows": 28347,
+    "airport_rows": {
+      "ORD": 22445,
+      "MDW": 5902
+    },
+    "downloaded_at": "2026-11-12T01:54:08+0300"
+  },
+  "2024-12": {
+    "source": "https://www.transtats.bts.gov/ontime/",
+    "archive_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_12.zip",
+    "archive_file": "input_store\\bts_archives\\On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_12.zip",
+    "filtered_file": "input_store\\bts_arrivals\\bts_arrivals_2024-12.csv",
+    "archive_size_bytes": 30150370,
+    "scanned_rows": 590581,
+    "filtered_rows": 28601,
+    "airport_rows": {
+      "ORD": 22652,
+      "MDW": 5949
+    },
+    "downloaded_at": "2026-11-12T01:54:48+0300"
+  },
+  "2025-01": {
+    "source": "https://www.transtats.bts.gov/ontime/",
+    "archive_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_1.zip",
+    "archive_file": "input_store\\bts_archives\\On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_1.zip",
+    "filtered_file": "input_store\\bts_arrivals\\bts_arrivals_2025-01.csv",
+    "archive_size_bytes": 27108664,
+    "scanned_rows": 539747,
+    "filtered_rows": 26829,
+    "airport_rows": {
+      "ORD": 21641,
+      "MDW": 5188
+    },
+    "downloaded_at": "2026-11-12T01:55:22+0300"
+  },
+  "2025-02": {
+    "source": "https://www.transtats.bts.gov/ontime/",
+    "archive_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_2.zip",
+    "archive_file": "input_store\\bts_archives\\On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_2.zip",
+    "filtered_file": "input_store\\bts_arrivals\\bts_arrivals_2025-02.csv",
+    "archive_size_bytes": 25302583,
+    "scanned_rows": 504884,
+    "filtered_rows": 24726,
+    "airport_rows": {
+      "ORD": 19982,
+      "MDW": 4744
+    },
+    "downloaded_at": "2026-11-12T01:55:56+0300"
+  },
+  "2025-03": {
+    "source": "https://www.transtats.bts.gov/ontime/",
+    "archive_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_3.zip",
+    "archive_file": "input_store\\bts_archives\\On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_3.zip",
+    "filtered_file": "input_store\\bts_arrivals\\bts_arrivals_2025-03.csv",
+    "archive_size_bytes": 30544825,
+    "scanned_rows": 600872,
+    "filtered_rows": 30686,
+    "airport_rows": {
+      "ORD": 24581,
+      "MDW": 6105
+    },
+    "downloaded_at": "2026-11-12T01:56:39+0300"
+  },
+  "2025-04": {
+    "source": "https://www.transtats.bts.gov/ontime/",
+    "archive_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_4.zip",
+    "archive_file": "input_store\\bts_archives\\On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_4.zip",
+    "filtered_file": "input_store\\bts_arrivals\\bts_arrivals_2025-04.csv",
+    "archive_size_bytes": 29369186,
+    "scanned_rows": 583950,
+    "filtered_rows": 32196,
+    "airport_rows": {
+      "ORD": 26146,
+      "MDW": 6050
+    },
+    "downloaded_at": "2026-11-12T01:57:23+0300"
+  },
+  "2025-05": {
+    "source": "https://www.transtats.bts.gov/ontime/",
+    "archive_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_5.zip",
+    "archive_file": "input_store\\bts_archives\\On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_5.zip",
+    "filtered_file": "input_store\\bts_arrivals\\bts_arrivals_2025-05.csv",
+    "archive_size_bytes": 30830593,
+    "scanned_rows": 605648,
+    "filtered_rows": 34123,
+    "airport_rows": {
+      "ORD": 27996,
+      "MDW": 6127
+    },
+    "downloaded_at": "2026-11-12T01:58:02+0300"
+  },
+  "2025-06": {
+    "source": "https://www.transtats.bts.gov/ontime/",
+    "archive_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_6.zip",
+    "archive_file": "input_store\\bts_archives\\On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_6.zip",
+    "filtered_file": "input_store\\bts_arrivals\\bts_arrivals_2025-06.csv",
+    "archive_size_bytes": 31131411,
+    "scanned_rows": 611575,
+    "filtered_rows": 36814,
+    "airport_rows": {
+      "ORD": 29630,
+      "MDW": 7184
+    },
+    "downloaded_at": "2026-11-12T01:58:47+0300"
+  },
+  "2025-07": {
+    "source": "https://www.transtats.bts.gov/ontime/",
+    "archive_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_7.zip",
+    "archive_file": "input_store\\bts_archives\\On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_7.zip",
+    "filtered_file": "input_store\\bts_arrivals\\bts_arrivals_2025-07.csv",
+    "archive_size_bytes": 32208704,
+    "scanned_rows": 631428,
+    "filtered_rows": 38039,
+    "airport_rows": {
+      "ORD": 30507,
+      "MDW": 7532
+    },
+    "downloaded_at": "2026-11-12T01:59:31+0300"
+  },
+  "2025-08": {
+    "source": "https://www.transtats.bts.gov/ontime/",
+    "archive_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_8.zip",
+    "archive_file": "input_store\\bts_archives\\On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_8.zip",
+    "filtered_file": "input_store\\bts_arrivals\\bts_arrivals_2025-08.csv",
+    "archive_size_bytes": 30864245,
+    "scanned_rows": 602378,
+    "filtered_rows": 36832,
+    "airport_rows": {
+      "ORD": 30098,
+      "MDW": 6734
+    },
+    "downloaded_at": "2026-11-12T02:00:16+0300"
+  },
+  "2025-09": {
+    "source": "https://www.transtats.bts.gov/ontime/",
+    "archive_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_9.zip",
+    "archive_file": "input_store\\bts_archives\\On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_9.zip",
+    "filtered_file": "input_store\\bts_arrivals\\bts_arrivals_2025-09.csv",
+    "archive_size_bytes": 28151630,
+    "scanned_rows": 562439,
+    "filtered_rows": 35320,
+    "airport_rows": {
+      "ORD": 28858,
+      "MDW": 6462
+    },
+    "downloaded_at": "2026-11-12T02:00:54+0300"
+  },
+  "2025-10": {
+    "source": "https://www.transtats.bts.gov/ontime/",
+    "archive_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_10.zip",
+    "archive_file": "input_store\\bts_archives\\On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_10.zip",
+    "filtered_file": "input_store\\bts_arrivals\\bts_arrivals_2025-10.csv",
+    "archive_size_bytes": 30723803,
+    "scanned_rows": 605844,
+    "filtered_rows": 37617,
+    "airport_rows": {
+      "ORD": 31083,
+      "MDW": 6534
+    },
+    "downloaded_at": "2026-11-12T02:01:35+0300"
+  },
+  "2025-11": {
+    "source": "https://www.transtats.bts.gov/ontime/",
+    "archive_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_11.zip",
+    "archive_file": "input_store\\bts_archives\\On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_11.zip",
+    "filtered_file": "input_store\\bts_arrivals\\bts_arrivals_2025-11.csv",
+    "archive_size_bytes": 28847755,
+    "scanned_rows": 570550,
+    "filtered_rows": 34339,
+    "airport_rows": {
+      "ORD": 28717,
+      "MDW": 5622
+    },
+    "downloaded_at": "2026-11-12T02:02:17+0300"
+  },
+  "2025-12": {
+    "source": "https://www.transtats.bts.gov/ontime/",
+    "archive_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_12.zip",
+    "archive_file": "input_store\\bts_archives\\On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_12.zip",
+    "filtered_file": "input_store\\bts_arrivals\\bts_arrivals_2025-12.csv",
+    "archive_size_bytes": 30337431,
+    "scanned_rows": 582304,
+    "filtered_rows": 33508,
+    "airport_rows": {
+      "ORD": 27772,
+      "MDW": 5736
+    },
+    "downloaded_at": "2026-11-12T02:02:56+0300"
+  },
+  "2026-01": {
+    "source": "https://www.transtats.bts.gov/ontime/",
+    "archive_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2026_1.zip",
+    "archive_file": "input_store\\bts_archives\\On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2026_1.zip",
+    "filtered_file": "input_store\\bts_arrivals\\bts_arrivals_2026-01.csv",
+    "archive_size_bytes": 27312195,
+    "scanned_rows": 544003,
+    "filtered_rows": 29973,
+    "airport_rows": {
+      "ORD": 25119,
+      "MDW": 4854
+    },
+    "downloaded_at": "2026-11-12T02:03:33+0300"
+  },
+  "2026-02": {
+    "source": "https://www.transtats.bts.gov/ontime/",
+    "archive_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2026_2.zip",
+    "archive_file": "input_store\\bts_archives\\On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2026_2.zip",
+    "filtered_file": "input_store\\bts_arrivals\\bts_arrivals_2026-02.csv",
+    "archive_size_bytes": 25811524,
+    "scanned_rows": 515037,
+    "filtered_rows": 30072,
+    "airport_rows": {
+      "ORD": 25535,
+      "MDW": 4537
+    },
+    "downloaded_at": "2026-11-12T02:04:12+0300"
+  },
+  "2026-03": {
+    "source": "https://www.transtats.bts.gov/ontime/",
+    "archive_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2026_3.zip",
+    "archive_file": "input_store\\bts_archives\\On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2026_3.zip",
+    "filtered_file": "input_store\\bts_arrivals\\bts_arrivals_2026-03.csv",
+    "archive_size_bytes": 31150791,
+    "scanned_rows": 612102,
+    "filtered_rows": 37886,
+    "airport_rows": {
+      "ORD": 31373,
+      "MDW": 6513
+    },
+    "downloaded_at": "2026-11-12T02:05:59+0300"
+  },
+  "2026-04": {
+    "source": "https://www.transtats.bts.gov/ontime/",
+    "archive_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2026_4.zip",
+    "archive_file": "input_store\\bts_archives\\On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2026_4.zip",
+    "filtered_file": "input_store\\bts_arrivals\\bts_arrivals_2026-04.csv",
+    "archive_size_bytes": 30504623,
+    "scanned_rows": 597919,
+    "filtered_rows": 39480,
+    "airport_rows": {
+      "ORD": 33199,
+      "MDW": 6281
+    },
+    "downloaded_at": "2026-11-12T02:06:47+0300"
+  },
+  "2026-05": {
+    "source": "https://www.transtats.bts.gov/ontime/",
+    "archive_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2026_5.zip",
+    "archive_file": "input_store\\bts_archives\\On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2026_5.zip",
+    "filtered_file": "input_store\\bts_arrivals\\bts_arrivals_2026-05.csv",
+    "archive_size_bytes": 31716693,
+    "scanned_rows": 611735,
+    "filtered_rows": 40003,
+    "airport_rows": {
+      "ORD": 33737,
+      "MDW": 6266
+    },
+    "downloaded_at": "2026-11-12T02:07:54+0300"
+  },
+  "2026-06": {
+    "source": "https://www.transtats.bts.gov/ontime/",
+    "archive_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2026_6.zip",
+    "archive_file": "input_store\\bts_archives\\On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2026_6.zip",
+    "filtered_file": "input_store\\bts_arrivals\\bts_arrivals_2026-06.csv",
+    "archive_size_bytes": 31606062,
+    "scanned_rows": 607577,
+    "filtered_rows": 38307,
+    "airport_rows": {
+      "ORD": 31369,
+      "MDW": 6938
+    },
+    "downloaded_at": "2026-11-12T02:08:36+0300"
+  },
+  "2026-07": {
+    "source": "https://www.transtats.bts.gov/ontime/",
+    "archive_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2026_7.zip",
+    "archive_file": "input_store\\bts_archives\\On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2026_7.zip",
+    "filtered_file": "input_store\\bts_arrivals\\bts_arrivals_2026-07.csv",
+    "archive_size_bytes": 33075361,
+    "scanned_rows": 631970,
+    "filtered_rows": 40286,
+    "airport_rows": {
+      "ORD": 33007,
+      "MDW": 7279
+    },
+    "downloaded_at": "2026-11-12T02:09:23+0300"
+  },
+  "2026-08": {
+    "source": "https://www.transtats.bts.gov/ontime/",
+    "archive_url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2026_8.zip",
+    "archive_file": "input_store\\bts_archives\\On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2026_8.zip",
+    "filtered_file": "input_store\\bts_arrivals\\bts_arrivals_2026-08.csv",
+    "archive_size_bytes": 32030583,
+    "scanned_rows": 608389,
+    "filtered_rows": 39916,
+    "airport_rows": {
+      "ORD": 33182,
+      "MDW": 6734
+    },
+    "downloaded_at": "2026-11-12T02:10:07+0300"
+  }
+}
