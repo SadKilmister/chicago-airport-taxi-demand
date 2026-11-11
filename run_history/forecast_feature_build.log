@@ -1,0 +1,6 @@
+2026-11-12 02:33:28,839 | INFO | ORD: сформировано 21186 строк признаков
+2026-11-12 02:33:28,984 | INFO | MDW: сформировано 21186 строк признаков
+2026-11-12 02:33:29,710 | INFO | Подготовка признаков завершена
+2026-11-12 02:33:29,710 | INFO | Таблица признаков: C:\Users\Cyber\Desktop\Универ\Магистратура\2курс\2курс_1семестр\Air_taxi\marts\hourly_airport_demand\forecast_training_features.csv
+2026-11-12 02:33:29,710 | INFO | Строк: 42372
+2026-11-12 02:33:29,710 | INFO | Отчёт качества: C:\Users\Cyber\Desktop\Универ\Магистратура\2курс\2курс_1семестр\Air_taxi\marts\hourly_airport_demand\forecast_feature_quality.json
