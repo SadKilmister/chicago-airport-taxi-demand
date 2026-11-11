@@ -1,0 +1,391 @@
+{
+  "sources": {
+    "taxi": "Chicago Taxi Trips (2024-)",
+    "bts": "BTS Reporting Carrier On-Time Performance"
+  },
+  "airport_codes": [
+    "ORD",
+    "MDW"
+  ],
+  "common_months": [
+    "2024-01",
+    "2024-02",
+    "2024-03",
+    "2024-04",
+    "2024-05",
+    "2024-06",
+    "2024-07",
+    "2024-08",
+    "2024-09",
+    "2024-10",
+    "2024-11",
+    "2024-12",
+    "2025-01",
+    "2025-02",
+    "2025-03",
+    "2025-04",
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12",
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06",
+    "2026-07",
+    "2026-08"
+  ],
+  "taxi_months_without_bts": [
+    "2026-09"
+  ],
+  "bts_months_without_taxi": [],
+  "taxi_rows_in_common_period": 46746,
+  "bts_rows_read": 1056592,
+  "scheduled_rows_aggregated": 1056590,
+  "rows_without_valid_scheduled_time": 1,
+  "rows_with_unresolved_arrival_date": 1,
+  "completed_arrivals_aggregated": 1031816,
+  "cancelled_flights_in_source": 20636,
+  "diverted_flights_in_source": 4140,
+  "months": {
+    "2024-01": {
+      "file": "input_store\\bts_arrivals\\bts_arrivals_2024-01.csv",
+      "source_rows": 26209,
+      "scheduled_rows_aggregated": 26209,
+      "rows_without_valid_scheduled_time": 0,
+      "rows_with_unresolved_arrival_date": 0,
+      "completed_arrivals_aggregated": 24152,
+      "cancelled_flights_in_source": 1978,
+      "diverted_flights_in_source": 79
+    },
+    "2024-02": {
+      "file": "input_store\\bts_arrivals\\bts_arrivals_2024-02.csv",
+      "source_rows": 24789,
+      "scheduled_rows_aggregated": 24789,
+      "rows_without_valid_scheduled_time": 0,
+      "rows_with_unresolved_arrival_date": 0,
+      "completed_arrivals_aggregated": 24636,
+      "cancelled_flights_in_source": 92,
+      "diverted_flights_in_source": 61
+    },
+    "2024-03": {
+      "file": "input_store\\bts_arrivals\\bts_arrivals_2024-03.csv",
+      "source_rows": 28975,
+      "scheduled_rows_aggregated": 28975,
+      "rows_without_valid_scheduled_time": 0,
+      "rows_with_unresolved_arrival_date": 0,
+      "completed_arrivals_aggregated": 28760,
+      "cancelled_flights_in_source": 166,
+      "diverted_flights_in_source": 49
+    },
+    "2024-04": {
+      "file": "input_store\\bts_arrivals\\bts_arrivals_2024-04.csv",
+      "source_rows": 30439,
+      "scheduled_rows_aggregated": 30439,
+      "rows_without_valid_scheduled_time": 0,
+      "rows_with_unresolved_arrival_date": 0,
+      "completed_arrivals_aggregated": 30245,
+      "cancelled_flights_in_source": 136,
+      "diverted_flights_in_source": 58
+    },
+    "2024-05": {
+      "file": "input_store\\bts_arrivals\\bts_arrivals_2024-05.csv",
+      "source_rows": 31818,
+      "scheduled_rows_aggregated": 31818,
+      "rows_without_valid_scheduled_time": 0,
+      "rows_with_unresolved_arrival_date": 0,
+      "completed_arrivals_aggregated": 31059,
+      "cancelled_flights_in_source": 484,
+      "diverted_flights_in_source": 275
+    },
+    "2024-06": {
+      "file": "input_store\\bts_arrivals\\bts_arrivals_2024-06.csv",
+      "source_rows": 31746,
+      "scheduled_rows_aggregated": 31746,
+      "rows_without_valid_scheduled_time": 0,
+      "rows_with_unresolved_arrival_date": 0,
+      "completed_arrivals_aggregated": 31233,
+      "cancelled_flights_in_source": 391,
+      "diverted_flights_in_source": 122
+    },
+    "2024-07": {
+      "file": "input_store\\bts_arrivals\\bts_arrivals_2024-07.csv",
+      "source_rows": 32411,
+      "scheduled_rows_aggregated": 32410,
+      "rows_without_valid_scheduled_time": 0,
+      "rows_with_unresolved_arrival_date": 1,
+      "completed_arrivals_aggregated": 31448,
+      "cancelled_flights_in_source": 773,
+      "diverted_flights_in_source": 190
+    },
+    "2024-08": {
+      "file": "input_store\\bts_arrivals\\bts_arrivals_2024-08.csv",
+      "source_rows": 32684,
+      "scheduled_rows_aggregated": 32684,
+      "rows_without_valid_scheduled_time": 0,
+      "rows_with_unresolved_arrival_date": 0,
+      "completed_arrivals_aggregated": 32114,
+      "cancelled_flights_in_source": 446,
+      "diverted_flights_in_source": 124
+    },
+    "2024-09": {
+      "file": "input_store\\bts_arrivals\\bts_arrivals_2024-09.csv",
+      "source_rows": 31687,
+      "scheduled_rows_aggregated": 31687,
+      "rows_without_valid_scheduled_time": 0,
+      "rows_with_unresolved_arrival_date": 0,
+      "completed_arrivals_aggregated": 31561,
+      "cancelled_flights_in_source": 106,
+      "diverted_flights_in_source": 20
+    },
+    "2024-10": {
+      "file": "input_store\\bts_arrivals\\bts_arrivals_2024-10.csv",
+      "source_rows": 31934,
+      "scheduled_rows_aggregated": 31934,
+      "rows_without_valid_scheduled_time": 0,
+      "rows_with_unresolved_arrival_date": 0,
+      "completed_arrivals_aggregated": 31735,
+      "cancelled_flights_in_source": 177,
+      "diverted_flights_in_source": 22
+    },
+    "2024-11": {
+      "file": "input_store\\bts_arrivals\\bts_arrivals_2024-11.csv",
+      "source_rows": 28347,
+      "scheduled_rows_aggregated": 28347,
+      "rows_without_valid_scheduled_time": 0,
+      "rows_with_unresolved_arrival_date": 0,
+      "completed_arrivals_aggregated": 28230,
+      "cancelled_flights_in_source": 89,
+      "diverted_flights_in_source": 28
+    },
+    "2024-12": {
+      "file": "input_store\\bts_arrivals\\bts_arrivals_2024-12.csv",
+      "source_rows": 28601,
+      "scheduled_rows_aggregated": 28601,
+      "rows_without_valid_scheduled_time": 0,
+      "rows_with_unresolved_arrival_date": 0,
+      "completed_arrivals_aggregated": 28389,
+      "cancelled_flights_in_source": 187,
+      "diverted_flights_in_source": 25
+    },
+    "2025-01": {
+      "file": "input_store\\bts_arrivals\\bts_arrivals_2025-01.csv",
+      "source_rows": 26829,
+      "scheduled_rows_aggregated": 26829,
+      "rows_without_valid_scheduled_time": 0,
+      "rows_with_unresolved_arrival_date": 0,
+      "completed_arrivals_aggregated": 26260,
+      "cancelled_flights_in_source": 534,
+      "diverted_flights_in_source": 35
+    },
+    "2025-02": {
+      "file": "input_store\\bts_arrivals\\bts_arrivals_2025-02.csv",
+      "source_rows": 24726,
+      "scheduled_rows_aggregated": 24726,
+      "rows_without_valid_scheduled_time": 0,
+      "rows_with_unresolved_arrival_date": 0,
+      "completed_arrivals_aggregated": 24400,
+      "cancelled_flights_in_source": 294,
+      "diverted_flights_in_source": 32
+    },
+    "2025-03": {
+      "file": "input_store\\bts_arrivals\\bts_arrivals_2025-03.csv",
+      "source_rows": 30686,
+      "scheduled_rows_aggregated": 30686,
+      "rows_without_valid_scheduled_time": 0,
+      "rows_with_unresolved_arrival_date": 0,
+      "completed_arrivals_aggregated": 30235,
+      "cancelled_flights_in_source": 338,
+      "diverted_flights_in_source": 113
+    },
+    "2025-04": {
+      "file": "input_store\\bts_arrivals\\bts_arrivals_2025-04.csv",
+      "source_rows": 32196,
+      "scheduled_rows_aggregated": 32196,
+      "rows_without_valid_scheduled_time": 0,
+      "rows_with_unresolved_arrival_date": 0,
+      "completed_arrivals_aggregated": 31752,
+      "cancelled_flights_in_source": 384,
+      "diverted_flights_in_source": 60
+    },
+    "2025-05": {
+      "file": "input_store\\bts_arrivals\\bts_arrivals_2025-05.csv",
+      "source_rows": 34123,
+      "scheduled_rows_aggregated": 34123,
+      "rows_without_valid_scheduled_time": 0,
+      "rows_with_unresolved_arrival_date": 0,
+      "completed_arrivals_aggregated": 33857,
+      "cancelled_flights_in_source": 214,
+      "diverted_flights_in_source": 52
+    },
+    "2025-06": {
+      "file": "input_store\\bts_arrivals\\bts_arrivals_2025-06.csv",
+      "source_rows": 36814,
+      "scheduled_rows_aggregated": 36814,
+      "rows_without_valid_scheduled_time": 0,
+      "rows_with_unresolved_arrival_date": 0,
+      "completed_arrivals_aggregated": 36365,
+      "cancelled_flights_in_source": 361,
+      "diverted_flights_in_source": 88
+    },
+    "2025-07": {
+      "file": "input_store\\bts_arrivals\\bts_arrivals_2025-07.csv",
+      "source_rows": 38039,
+      "scheduled_rows_aggregated": 38039,
+      "rows_without_valid_scheduled_time": 0,
+      "rows_with_unresolved_arrival_date": 0,
+      "completed_arrivals_aggregated": 36774,
+      "cancelled_flights_in_source": 992,
+      "diverted_flights_in_source": 273
+    },
+    "2025-08": {
+      "file": "input_store\\bts_arrivals\\bts_arrivals_2025-08.csv",
+      "source_rows": 36832,
+      "scheduled_rows_aggregated": 36832,
+      "rows_without_valid_scheduled_time": 0,
+      "rows_with_unresolved_arrival_date": 0,
+      "completed_arrivals_aggregated": 35752,
+      "cancelled_flights_in_source": 836,
+      "diverted_flights_in_source": 244
+    },
+    "2025-09": {
+      "file": "input_store\\bts_arrivals\\bts_arrivals_2025-09.csv",
+      "source_rows": 35320,
+      "scheduled_rows_aggregated": 35320,
+      "rows_without_valid_scheduled_time": 0,
+      "rows_with_unresolved_arrival_date": 0,
+      "completed_arrivals_aggregated": 35123,
+      "cancelled_flights_in_source": 134,
+      "diverted_flights_in_source": 63
+    },
+    "2025-10": {
+      "file": "input_store\\bts_arrivals\\bts_arrivals_2025-10.csv",
+      "source_rows": 37617,
+      "scheduled_rows_aggregated": 37617,
+      "rows_without_valid_scheduled_time": 0,
+      "rows_with_unresolved_arrival_date": 0,
+      "completed_arrivals_aggregated": 37473,
+      "cancelled_flights_in_source": 114,
+      "diverted_flights_in_source": 30
+    },
+    "2025-11": {
+      "file": "input_store\\bts_arrivals\\bts_arrivals_2025-11.csv",
+      "source_rows": 34339,
+      "scheduled_rows_aggregated": 34339,
+      "rows_without_valid_scheduled_time": 0,
+      "rows_with_unresolved_arrival_date": 0,
+      "completed_arrivals_aggregated": 32388,
+      "cancelled_flights_in_source": 1865,
+      "diverted_flights_in_source": 86
+    },
+    "2025-12": {
+      "file": "input_store\\bts_arrivals\\bts_arrivals_2025-12.csv",
+      "source_rows": 33508,
+      "scheduled_rows_aggregated": 33508,
+      "rows_without_valid_scheduled_time": 0,
+      "rows_with_unresolved_arrival_date": 0,
+      "completed_arrivals_aggregated": 32643,
+      "cancelled_flights_in_source": 797,
+      "diverted_flights_in_source": 68
+    },
+    "2026-01": {
+      "file": "input_store\\bts_arrivals\\bts_arrivals_2026-01.csv",
+      "source_rows": 29973,
+      "scheduled_rows_aggregated": 29973,
+      "rows_without_valid_scheduled_time": 0,
+      "rows_with_unresolved_arrival_date": 0,
+      "completed_arrivals_aggregated": 28751,
+      "cancelled_flights_in_source": 1093,
+      "diverted_flights_in_source": 129
+    },
+    "2026-02": {
+      "file": "input_store\\bts_arrivals\\bts_arrivals_2026-02.csv",
+      "source_rows": 30072,
+      "scheduled_rows_aggregated": 30072,
+      "rows_without_valid_scheduled_time": 0,
+      "rows_with_unresolved_arrival_date": 0,
+      "completed_arrivals_aggregated": 29654,
+      "cancelled_flights_in_source": 367,
+      "diverted_flights_in_source": 51
+    },
+    "2026-03": {
+      "file": "input_store\\bts_arrivals\\bts_arrivals_2026-03.csv",
+      "source_rows": 37886,
+      "scheduled_rows_aggregated": 37886,
+      "rows_without_valid_scheduled_time": 0,
+      "rows_with_unresolved_arrival_date": 0,
+      "completed_arrivals_aggregated": 35429,
+      "cancelled_flights_in_source": 2076,
+      "diverted_flights_in_source": 381
+    },
+    "2026-04": {
+      "file": "input_store\\bts_arrivals\\bts_arrivals_2026-04.csv",
+      "source_rows": 39480,
+      "scheduled_rows_aggregated": 39479,
+      "rows_without_valid_scheduled_time": 1,
+      "rows_with_unresolved_arrival_date": 0,
+      "completed_arrivals_aggregated": 37896,
+      "cancelled_flights_in_source": 1264,
+      "diverted_flights_in_source": 320
+    },
+    "2026-05": {
+      "file": "input_store\\bts_arrivals\\bts_arrivals_2026-05.csv",
+      "source_rows": 40003,
+      "scheduled_rows_aggregated": 40003,
+      "rows_without_valid_scheduled_time": 0,
+      "rows_with_unresolved_arrival_date": 0,
+      "completed_arrivals_aggregated": 39466,
+      "cancelled_flights_in_source": 394,
+      "diverted_flights_in_source": 143
+    },
+    "2026-06": {
+      "file": "input_store\\bts_arrivals\\bts_arrivals_2026-06.csv",
+      "source_rows": 38307,
+      "scheduled_rows_aggregated": 38307,
+      "rows_without_valid_scheduled_time": 0,
+      "rows_with_unresolved_arrival_date": 0,
+      "completed_arrivals_aggregated": 36922,
+      "cancelled_flights_in_source": 1150,
+      "diverted_flights_in_source": 235
+    },
+    "2026-07": {
+      "file": "input_store\\bts_arrivals\\bts_arrivals_2026-07.csv",
+      "source_rows": 40286,
+      "scheduled_rows_aggregated": 40286,
+      "rows_without_valid_scheduled_time": 0,
+      "rows_with_unresolved_arrival_date": 0,
+      "completed_arrivals_aggregated": 38347,
+      "cancelled_flights_in_source": 1592,
+      "diverted_flights_in_source": 347
+    },
+    "2026-08": {
+      "file": "input_store\\bts_arrivals\\bts_arrivals_2026-08.csv",
+      "source_rows": 39916,
+      "scheduled_rows_aggregated": 39916,
+      "rows_without_valid_scheduled_time": 0,
+      "rows_with_unresolved_arrival_date": 0,
+      "completed_arrivals_aggregated": 38767,
+      "cancelled_flights_in_source": 812,
+      "diverted_flights_in_source": 337
+    }
+  },
+  "arrival_date_method": "BTS FlightDate is treated as the operation date at the origin. The scheduled arrival date is inferred using CRS departure time, CRS arrival time, CRSElapsedTime, and a plausible Chicago-to-US-origin UTC-offset difference range of -240 to 360 minutes. Rows without exactly one valid day offset are excluded from flight aggregation and counted in the quality report.",
+  "actual_arrival_method": "Actual arrival time is derived from scheduled local arrival timestamp plus BTS ArrDelay. Cancelled and diverted flights are excluded from completed-arrival counts.",
+  "feature_availability_note": "Same-hour flight values in this panel are historical descriptive values. Forecast models must use only lagged flight values that would be known at forecast time.",
+  "output_rows": 46746,
+  "output_file": "marts\\hourly_airport_demand\\airport_hourly_panel.csv",
+  "period_start": "2024-01-01T00:00:00",
+  "period_end": "2026-08-31T23:00:00",
+  "airport_rows": {
+    "ORD": 23373,
+    "MDW": 23373
+  },
+  "zero_flight_count_note": "A zero flight count means no matching BTS flight record was present for that airport and local hour in the overlapping source period.",
+  "delay_missing_note": "Mean arrival delay is blank when no completed arrival with a valid delay observation exists in that hour."
+}
