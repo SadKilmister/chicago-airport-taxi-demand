@@ -1,0 +1,227 @@
+{
+  "source": "Chicago Taxi Trips (2024-)",
+  "source_url": "https://data.cityofchicago.org/d/ajtu-isnz",
+  "airport_areas": {
+    "MDW": 56,
+    "ORD": 76
+  },
+  "source_months_in_manifest": 34,
+  "processed_months": 33,
+  "excluded_latest_month": {
+    "month": "2026-10",
+    "file": "input_store\\taxi_trips\\taxi_trips_2026-10.csv",
+    "source_rows": 23,
+    "reason": "Последний месяц выгрузки исключён как потенциально неполный, чтобы не трактовать отсутствующие будущие часы как нулевой спрос."
+  },
+  "input_rows": 4176102,
+  "retained_rows": 4176102,
+  "dropped_rows": 0,
+  "invalid_timestamps": 0,
+  "invalid_airport_areas": 0,
+  "timestamps_outside_source_month": 0,
+  "months": {
+    "2024-01": {
+      "file": "input_store\\taxi_trips\\taxi_trips_2024-01.csv",
+      "input_rows": 110336,
+      "retained_rows": 110336,
+      "dropped_rows": 0
+    },
+    "2024-02": {
+      "file": "input_store\\taxi_trips\\taxi_trips_2024-02.csv",
+      "input_rows": 106267,
+      "retained_rows": 106267,
+      "dropped_rows": 0
+    },
+    "2024-03": {
+      "file": "input_store\\taxi_trips\\taxi_trips_2024-03.csv",
+      "input_rows": 129784,
+      "retained_rows": 129784,
+      "dropped_rows": 0
+    },
+    "2024-04": {
+      "file": "input_store\\taxi_trips\\taxi_trips_2024-04.csv",
+      "input_rows": 138889,
+      "retained_rows": 138889,
+      "dropped_rows": 0
+    },
+    "2024-05": {
+      "file": "input_store\\taxi_trips\\taxi_trips_2024-05.csv",
+      "input_rows": 162017,
+      "retained_rows": 162017,
+      "dropped_rows": 0
+    },
+    "2024-06": {
+      "file": "input_store\\taxi_trips\\taxi_trips_2024-06.csv",
+      "input_rows": 151743,
+      "retained_rows": 151743,
+      "dropped_rows": 0
+    },
+    "2024-07": {
+      "file": "input_store\\taxi_trips\\taxi_trips_2024-07.csv",
+      "input_rows": 138241,
+      "retained_rows": 138241,
+      "dropped_rows": 0
+    },
+    "2024-08": {
+      "file": "input_store\\taxi_trips\\taxi_trips_2024-08.csv",
+      "input_rows": 140465,
+      "retained_rows": 140465,
+      "dropped_rows": 0
+    },
+    "2024-09": {
+      "file": "input_store\\taxi_trips\\taxi_trips_2024-09.csv",
+      "input_rows": 149280,
+      "retained_rows": 149280,
+      "dropped_rows": 0
+    },
+    "2024-10": {
+      "file": "input_store\\taxi_trips\\taxi_trips_2024-10.csv",
+      "input_rows": 152426,
+      "retained_rows": 152426,
+      "dropped_rows": 0
+    },
+    "2024-11": {
+      "file": "input_store\\taxi_trips\\taxi_trips_2024-11.csv",
+      "input_rows": 129929,
+      "retained_rows": 129929,
+      "dropped_rows": 0
+    },
+    "2024-12": {
+      "file": "input_store\\taxi_trips\\taxi_trips_2024-12.csv",
+      "input_rows": 106967,
+      "retained_rows": 106967,
+      "dropped_rows": 0
+    },
+    "2025-01": {
+      "file": "input_store\\taxi_trips\\taxi_trips_2025-01.csv",
+      "input_rows": 97150,
+      "retained_rows": 97150,
+      "dropped_rows": 0
+    },
+    "2025-02": {
+      "file": "input_store\\taxi_trips\\taxi_trips_2025-02.csv",
+      "input_rows": 100496,
+      "retained_rows": 100496,
+      "dropped_rows": 0
+    },
+    "2025-03": {
+      "file": "input_store\\taxi_trips\\taxi_trips_2025-03.csv",
+      "input_rows": 130092,
+      "retained_rows": 130092,
+      "dropped_rows": 0
+    },
+    "2025-04": {
+      "file": "input_store\\taxi_trips\\taxi_trips_2025-04.csv",
+      "input_rows": 131482,
+      "retained_rows": 131482,
+      "dropped_rows": 0
+    },
+    "2025-05": {
+      "file": "input_store\\taxi_trips\\taxi_trips_2025-05.csv",
+      "input_rows": 148606,
+      "retained_rows": 148606,
+      "dropped_rows": 0
+    },
+    "2025-06": {
+      "file": "input_store\\taxi_trips\\taxi_trips_2025-06.csv",
+      "input_rows": 145107,
+      "retained_rows": 145107,
+      "dropped_rows": 0
+    },
+    "2025-07": {
+      "file": "input_store\\taxi_trips\\taxi_trips_2025-07.csv",
+      "input_rows": 127951,
+      "retained_rows": 127951,
+      "dropped_rows": 0
+    },
+    "2025-08": {
+      "file": "input_store\\taxi_trips\\taxi_trips_2025-08.csv",
+      "input_rows": 124535,
+      "retained_rows": 124535,
+      "dropped_rows": 0
+    },
+    "2025-09": {
+      "file": "input_store\\taxi_trips\\taxi_trips_2025-09.csv",
+      "input_rows": 138835,
+      "retained_rows": 138835,
+      "dropped_rows": 0
+    },
+    "2025-10": {
+      "file": "input_store\\taxi_trips\\taxi_trips_2025-10.csv",
+      "input_rows": 145394,
+      "retained_rows": 145394,
+      "dropped_rows": 0
+    },
+    "2025-11": {
+      "file": "input_store\\taxi_trips\\taxi_trips_2025-11.csv",
+      "input_rows": 112654,
+      "retained_rows": 112654,
+      "dropped_rows": 0
+    },
+    "2025-12": {
+      "file": "input_store\\taxi_trips\\taxi_trips_2025-12.csv",
+      "input_rows": 95210,
+      "retained_rows": 95210,
+      "dropped_rows": 0
+    },
+    "2026-01": {
+      "file": "input_store\\taxi_trips\\taxi_trips_2026-01.csv",
+      "input_rows": 89291,
+      "retained_rows": 89291,
+      "dropped_rows": 0
+    },
+    "2026-02": {
+      "file": "input_store\\taxi_trips\\taxi_trips_2026-02.csv",
+      "input_rows": 88147,
+      "retained_rows": 88147,
+      "dropped_rows": 0
+    },
+    "2026-03": {
+      "file": "input_store\\taxi_trips\\taxi_trips_2026-03.csv",
+      "input_rows": 119849,
+      "retained_rows": 119849,
+      "dropped_rows": 0
+    },
+    "2026-04": {
+      "file": "input_store\\taxi_trips\\taxi_trips_2026-04.csv",
+      "input_rows": 119134,
+      "retained_rows": 119134,
+      "dropped_rows": 0
+    },
+    "2026-05": {
+      "file": "input_store\\taxi_trips\\taxi_trips_2026-05.csv",
+      "input_rows": 131751,
+      "retained_rows": 131751,
+      "dropped_rows": 0
+    },
+    "2026-06": {
+      "file": "input_store\\taxi_trips\\taxi_trips_2026-06.csv",
+      "input_rows": 134166,
+      "retained_rows": 134166,
+      "dropped_rows": 0
+    },
+    "2026-07": {
+      "file": "input_store\\taxi_trips\\taxi_trips_2026-07.csv",
+      "input_rows": 126111,
+      "retained_rows": 126111,
+      "dropped_rows": 0
+    },
+    "2026-08": {
+      "file": "input_store\\taxi_trips\\taxi_trips_2026-08.csv",
+      "input_rows": 121754,
+      "retained_rows": 121754,
+      "dropped_rows": 0
+    },
+    "2026-09": {
+      "file": "input_store\\taxi_trips\\taxi_trips_2026-09.csv",
+      "input_rows": 132043,
+      "retained_rows": 132043,
+      "dropped_rows": 0
+    }
+  },
+  "output_rows": 48186,
+  "output_file": "marts\\hourly_airport_demand\\taxi_hourly_demand.csv",
+  "time_handling": "Timestamps are treated as Chicago local wall time. The nonexistent spring-forward hour is excluded. The repeated fall-back hour is aggregated into one local hour.",
+  "deduplication": "No rows were removed as duplicates. The downloaded extract has no trip identifier, and multiple real trips can share the same rounded timestamp and airport area.",
+  "zero_count_note": "Zero means no matching trip record was present in the processed source files for that airport and hour."
+}

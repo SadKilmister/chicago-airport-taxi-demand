@@ -1,0 +1,9 @@
+.venv/
+venv/
+.idea/
+__pycache__/
+*.py[cod]
+.env
+*.part
+
+input_store/
