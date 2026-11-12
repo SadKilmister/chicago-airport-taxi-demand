@@ -6,3 +6,5 @@ xgboost
 lightgbm
 catboost
 joblib
+streamlit
+plotly
