@@ -1,0 +1,14 @@
+{
+  "model_run_id": "20261112_125051",
+  "model_path": "C:\\Users\\Cyber\\Desktop\\Универ\\Магистратура\\2курс\\2курс_1семестр\\Air_taxi\\model_runs\\20261112_125051\\lightgbm.joblib",
+  "test_start": "2026-04-21T14:00:00",
+  "permutation_scoring": "Одношаговая оценка на тестовых строках с наблюдаемыми лагами; используется только для интерпретации, не для подбора модели.",
+  "period_comparison": "Средние абсолютные TreeSHAP-вклады Train + Validation сравниваются с Test.",
+  "local_explanation": {
+    "airport": "ORD",
+    "forecast_start": "2026-04-21T14:00:00",
+    "explained_step": 1,
+    "horizon_hours": 24
+  },
+  "random_state": 42
+}
