@@ -1,0 +1,96 @@
+{
+  "run_id": "20261112_125051",
+  "created_at": "2026-11-12T13:09:06",
+  "data_path": "C:\\Users\\Cyber\\Desktop\\Универ\\Магистратура\\2курс\\2курс_1семестр\\Air_taxi\\marts\\hourly_airport_demand\\forecast_training_features.csv",
+  "data_sha256": "f414f7e62856d8b9e3b78f2c6db4380e3cc727ef70fe07834bb133614403f836",
+  "target": "trip_count",
+  "airports": [
+    "MDW",
+    "ORD"
+  ],
+  "features": [
+    "taxi_lag_1h",
+    "taxi_lag_24h",
+    "taxi_lag_168h",
+    "taxi_rolling_mean_24h",
+    "taxi_rolling_mean_168h",
+    "scheduled_arrivals_lag_3m",
+    "actual_arrivals_lag_3m",
+    "cancelled_flights_lag_3m",
+    "diverted_flights_lag_3m",
+    "mean_arrival_delay_lag_3m",
+    "bts_lag_3m_available",
+    "mean_arrival_delay_lag_3m_missing",
+    "airport_ord",
+    "hour_sin",
+    "hour_cos",
+    "weekday_sin",
+    "weekday_cos",
+    "month_sin",
+    "month_cos",
+    "day_of_year_sin",
+    "day_of_year_cos",
+    "is_weekend",
+    "is_us_federal_holiday"
+  ],
+  "split": {
+    "validation_start": "2025-12-10T01:00:00",
+    "test_start": "2026-04-21T14:00:00",
+    "train_rows": 29660,
+    "validation_rows": 6356,
+    "test_rows": 6356,
+    "horizon_hours": 24,
+    "tuning_windows_per_airport": 12
+  },
+  "selected_parameters": {
+    "ridge": {
+      "alpha": 1000.0
+    },
+    "random_forest": {
+      "max_depth": 20,
+      "max_features": 0.8,
+      "min_samples_leaf": 2,
+      "n_estimators": 300
+    },
+    "xgboost": {
+      "colsample_bytree": 0.9,
+      "learning_rate": 0.03,
+      "max_depth": 5,
+      "min_child_weight": 3,
+      "n_estimators": 500,
+      "reg_lambda": 5.0,
+      "subsample": 0.8
+    },
+    "lightgbm": {
+      "colsample_bytree": 0.8,
+      "learning_rate": 0.05,
+      "max_depth": 8,
+      "min_child_samples": 50,
+      "n_estimators": 300,
+      "num_leaves": 31,
+      "reg_lambda": 10.0,
+      "subsample": 0.9,
+      "subsample_freq": 1,
+      "verbosity": -1
+    },
+    "catboost": {
+      "allow_writing_files": false,
+      "bagging_temperature": 1.0,
+      "depth": 7,
+      "iterations": 500,
+      "l2_leaf_reg": 7.0,
+      "learning_rate": 0.03,
+      "random_strength": 1.0,
+      "thread_count": -1,
+      "verbose": false
+    }
+  },
+  "software": {
+    "python": "3.12.6",
+    "pandas": "3.1.1",
+    "scikit_learn": "1.9.1",
+    "xgboost": "3.4.1",
+    "lightgbm": "4.7.0",
+    "catboost": "1.2.10"
+  }
+}

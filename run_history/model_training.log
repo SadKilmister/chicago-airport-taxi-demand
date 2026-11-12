@@ -1,0 +1,109 @@
+2026-11-12 02:44:41,410 | INFO | Читаю таблицу признаков: C:\Users\Cyber\Desktop\Универ\Магистратура\2курс\2курс_1семестр\Air_taxi\marts\hourly_airport_demand\forecast_training_features.csv
+2026-11-12 02:44:41,552 | INFO | Train: 2024-04-01 00:00:00 — 2025-12-10 00:00:00 (29660 строк)
+2026-11-12 02:44:41,552 | INFO | Validation: 2025-12-10 01:00:00 — 2026-04-21 13:00:00 (6356 строк)
+2026-11-12 02:44:41,553 | INFO | Test: 2026-04-21 14:00:00 — 2026-08-31 23:00:00 (6356 строк)
+2026-11-12 02:44:41,588 | INFO | ridge: конфигурация 1/4: {'alpha': 0.1}
+2026-11-12 02:44:53,933 | INFO | ridge: конфигурация 2/4: {'alpha': 1.0}
+2026-11-12 02:45:08,915 | INFO | ridge: конфигурация 3/4: {'alpha': 10.0}
+2026-11-12 02:45:20,984 | INFO | ridge: конфигурация 4/4: {'alpha': 100.0}
+2026-11-12 02:45:57,575 | INFO | ridge: validation MAE=20.653, test MAE=23.659
+2026-11-12 02:45:57,575 | INFO | random_forest: конфигурация 1/4: {'n_estimators': 200, 'max_depth': 12, 'min_samples_leaf': 2, 'max_features': 0.8}
+2026-11-12 02:49:09,836 | INFO | random_forest: конфигурация 2/4: {'n_estimators': 200, 'max_depth': 12, 'min_samples_leaf': 5, 'max_features': 0.8}
+2026-11-12 02:52:18,314 | INFO | random_forest: конфигурация 3/4: {'n_estimators': 200, 'max_depth': None, 'min_samples_leaf': 2, 'max_features': 0.8}
+2026-11-12 02:55:27,533 | INFO | random_forest: конфигурация 4/4: {'n_estimators': 200, 'max_depth': None, 'min_samples_leaf': 5, 'max_features': 0.8}
+2026-11-12 03:05:00,528 | INFO | random_forest: validation MAE=15.700, test MAE=17.740
+2026-11-12 03:05:00,529 | INFO | xgboost: конфигурация 1/4: {'n_estimators': 300, 'max_depth': 3, 'learning_rate': 0.05, 'subsample': 0.8, 'colsample_bytree': 0.8}
+2026-11-12 03:05:21,393 | INFO | xgboost: конфигурация 2/4: {'n_estimators': 500, 'max_depth': 3, 'learning_rate': 0.03, 'subsample': 0.8, 'colsample_bytree': 0.8}
+2026-11-12 03:05:39,055 | INFO | xgboost: конфигурация 3/4: {'n_estimators': 300, 'max_depth': 5, 'learning_rate': 0.05, 'subsample': 0.8, 'colsample_bytree': 0.8}
+2026-11-12 03:05:56,853 | INFO | xgboost: конфигурация 4/4: {'n_estimators': 500, 'max_depth': 5, 'learning_rate': 0.03, 'subsample': 0.8, 'colsample_bytree': 0.8}
+2026-11-12 03:06:53,235 | INFO | xgboost: validation MAE=14.641, test MAE=16.869
+2026-11-12 03:06:53,456 | INFO | Обучение завершено. Результаты: C:\Users\Cyber\Desktop\Универ\Магистратура\2курс\2курс_1семестр\Air_taxi\model_runs\20261112_024441
+2026-11-12 03:06:53,456 | INFO | Журнал запуска: C:\Users\Cyber\Desktop\Универ\Магистратура\2курс\2курс_1семестр\Air_taxi\run_history\model_training.log
+2026-11-12 12:50:51,301 | INFO | Читаю таблицу признаков: C:\Users\Cyber\Desktop\Универ\Магистратура\2курс\2курс_1семестр\Air_taxi\marts\hourly_airport_demand\forecast_training_features.csv
+2026-11-12 12:50:51,470 | INFO | Train: 2024-04-01 00:00:00 — 2025-12-10 00:00:00 (29660 строк)
+2026-11-12 12:50:51,471 | INFO | Validation: 2025-12-10 01:00:00 — 2026-04-21 13:00:00 (6356 строк)
+2026-11-12 12:50:51,471 | INFO | Test: 2026-04-21 14:00:00 — 2026-08-31 23:00:00 (6356 строк)
+2026-11-12 12:50:51,478 | INFO | Подбор будет оценивать до 12 окон по 24 часа на аэропорт.
+2026-11-12 12:50:58,804 | INFO | ridge: конфигурация 1/6: {'alpha': 0.1}
+2026-11-12 12:51:00,516 | INFO | ridge конфигурация 1: MAE=20.573, окон=2, 1.7 сек.
+2026-11-12 12:51:00,516 | INFO | ridge: конфигурация 2/6: {'alpha': 1.0}
+2026-11-12 12:51:02,330 | INFO | ridge конфигурация 2: MAE=20.570, окон=2, 1.8 сек.
+2026-11-12 12:51:02,330 | INFO | ridge: конфигурация 3/6: {'alpha': 10.0}
+2026-11-12 12:51:08,399 | INFO | ridge конфигурация 3: MAE=20.547, окон=2, 6.1 сек.
+2026-11-12 12:51:08,399 | INFO | ridge: конфигурация 4/6: {'alpha': 100.0}
+2026-11-12 12:51:09,987 | INFO | ridge конфигурация 4: MAE=20.329, окон=2, 1.6 сек.
+2026-11-12 12:51:09,987 | INFO | ridge: конфигурация 5/6: {'alpha': 500.0}
+2026-11-12 12:51:11,623 | INFO | ridge конфигурация 5: MAE=19.691, окон=2, 1.6 сек.
+2026-11-12 12:51:11,624 | INFO | ridge: конфигурация 6/6: {'alpha': 1000.0}
+2026-11-12 12:51:13,201 | INFO | ridge конфигурация 6: MAE=19.305, окон=2, 1.6 сек.
+2026-11-12 12:51:41,473 | INFO | ridge: validation MAE=19.399, test MAE=22.730
+2026-11-12 12:51:41,474 | INFO | random_forest: конфигурация 1/8: {'n_estimators': 300, 'max_depth': 12, 'min_samples_leaf': 2, 'max_features': 0.8}
+2026-11-12 12:52:14,402 | INFO | random_forest конфигурация 1: MAE=15.762, окон=2, 32.9 сек.
+2026-11-12 12:52:14,402 | INFO | random_forest: конфигурация 2/8: {'n_estimators': 300, 'max_depth': 12, 'min_samples_leaf': 2, 'max_features': 1.0}
+2026-11-12 12:52:44,081 | INFO | random_forest конфигурация 2: MAE=16.047, окон=2, 29.7 сек.
+2026-11-12 12:52:44,081 | INFO | random_forest: конфигурация 3/8: {'n_estimators': 300, 'max_depth': 12, 'min_samples_leaf': 5, 'max_features': 0.8}
+2026-11-12 12:53:12,699 | INFO | random_forest конфигурация 3: MAE=15.638, окон=2, 28.6 сек.
+2026-11-12 12:53:12,700 | INFO | random_forest: конфигурация 4/8: {'n_estimators': 300, 'max_depth': 12, 'min_samples_leaf': 5, 'max_features': 1.0}
+2026-11-12 12:53:42,132 | INFO | random_forest конфигурация 4: MAE=16.954, окон=2, 29.4 сек.
+2026-11-12 12:53:42,132 | INFO | random_forest: конфигурация 5/8: {'n_estimators': 300, 'max_depth': 20, 'min_samples_leaf': 2, 'max_features': 0.8}
+2026-11-12 12:54:12,150 | INFO | random_forest конфигурация 5: MAE=15.557, окон=2, 30.0 сек.
+2026-11-12 12:54:12,150 | INFO | random_forest: конфигурация 6/8: {'n_estimators': 300, 'max_depth': 20, 'min_samples_leaf': 2, 'max_features': 1.0}
+2026-11-12 12:54:43,461 | INFO | random_forest конфигурация 6: MAE=15.936, окон=2, 31.3 сек.
+2026-11-12 12:54:43,461 | INFO | random_forest: конфигурация 7/8: {'n_estimators': 300, 'max_depth': 20, 'min_samples_leaf': 5, 'max_features': 0.8}
+2026-11-12 12:55:12,927 | INFO | random_forest конфигурация 7: MAE=15.624, окон=2, 29.5 сек.
+2026-11-12 12:55:12,927 | INFO | random_forest: конфигурация 8/8: {'n_estimators': 300, 'max_depth': 20, 'min_samples_leaf': 5, 'max_features': 1.0}
+2026-11-12 12:55:43,381 | INFO | random_forest конфигурация 8: MAE=16.806, окон=2, 30.5 сек.
+2026-11-12 13:05:18,542 | INFO | random_forest: validation MAE=15.450, test MAE=17.607
+2026-11-12 13:05:18,542 | INFO | xgboost: конфигурация 1/8: {'n_estimators': 300, 'max_depth': 3, 'learning_rate': 0.05, 'min_child_weight': 1, 'subsample': 0.8, 'colsample_bytree': 0.8, 'reg_lambda': 1.0}
+2026-11-12 13:05:24,786 | INFO | xgboost конфигурация 1: MAE=14.993, окон=2, 6.2 сек.
+2026-11-12 13:05:24,786 | INFO | xgboost: конфигурация 2/8: {'n_estimators': 500, 'max_depth': 3, 'learning_rate': 0.03, 'min_child_weight': 1, 'subsample': 0.8, 'colsample_bytree': 0.8, 'reg_lambda': 5.0}
+2026-11-12 13:05:27,091 | INFO | xgboost конфигурация 2: MAE=15.269, окон=2, 2.3 сек.
+2026-11-12 13:05:27,091 | INFO | xgboost: конфигурация 3/8: {'n_estimators': 700, 'max_depth': 3, 'learning_rate': 0.03, 'min_child_weight': 3, 'subsample': 0.9, 'colsample_bytree': 0.8, 'reg_lambda': 5.0}
+2026-11-12 13:05:29,605 | INFO | xgboost конфигурация 3: MAE=15.063, окон=2, 2.5 сек.
+2026-11-12 13:05:29,606 | INFO | xgboost: конфигурация 4/8: {'n_estimators': 300, 'max_depth': 5, 'learning_rate': 0.05, 'min_child_weight': 1, 'subsample': 0.8, 'colsample_bytree': 0.8, 'reg_lambda': 1.0}
+2026-11-12 13:05:31,778 | INFO | xgboost конфигурация 4: MAE=15.162, окон=2, 2.2 сек.
+2026-11-12 13:05:31,778 | INFO | xgboost: конфигурация 5/8: {'n_estimators': 500, 'max_depth': 5, 'learning_rate': 0.03, 'min_child_weight': 3, 'subsample': 0.8, 'colsample_bytree': 0.9, 'reg_lambda': 5.0}
+2026-11-12 13:05:34,287 | INFO | xgboost конфигурация 5: MAE=14.932, окон=2, 2.5 сек.
+2026-11-12 13:05:34,288 | INFO | xgboost: конфигурация 6/8: {'n_estimators': 700, 'max_depth': 5, 'learning_rate': 0.03, 'min_child_weight': 5, 'subsample': 0.9, 'colsample_bytree': 0.9, 'reg_lambda': 10.0}
+2026-11-12 13:05:37,446 | INFO | xgboost конфигурация 6: MAE=14.945, окон=2, 3.2 сек.
+2026-11-12 13:05:37,446 | INFO | xgboost: конфигурация 7/8: {'n_estimators': 400, 'max_depth': 7, 'learning_rate': 0.05, 'min_child_weight': 3, 'subsample': 0.8, 'colsample_bytree': 0.8, 'reg_lambda': 5.0}
+2026-11-12 13:05:40,179 | INFO | xgboost конфигурация 7: MAE=15.325, окон=2, 2.7 сек.
+2026-11-12 13:05:40,179 | INFO | xgboost: конфигурация 8/8: {'n_estimators': 600, 'max_depth': 7, 'learning_rate': 0.03, 'min_child_weight': 5, 'subsample': 0.9, 'colsample_bytree': 0.8, 'reg_lambda': 10.0}
+2026-11-12 13:05:43,336 | INFO | xgboost конфигурация 8: MAE=15.040, окон=2, 3.2 сек.
+2026-11-12 13:06:24,362 | INFO | xgboost: validation MAE=14.397, test MAE=16.813
+2026-11-12 13:06:24,362 | INFO | lightgbm: конфигурация 1/8: {'n_estimators': 300, 'learning_rate': 0.05, 'num_leaves': 15, 'max_depth': 6, 'min_child_samples': 20, 'subsample': 0.8, 'subsample_freq': 1, 'colsample_bytree': 0.8, 'reg_lambda': 1.0, 'verbosity': -1}
+2026-11-12 13:06:26,973 | INFO | lightgbm конфигурация 1: MAE=14.809, окон=2, 2.6 сек.
+2026-11-12 13:06:26,973 | INFO | lightgbm: конфигурация 2/8: {'n_estimators': 500, 'learning_rate': 0.03, 'num_leaves': 15, 'max_depth': 6, 'min_child_samples': 30, 'subsample': 0.9, 'subsample_freq': 1, 'colsample_bytree': 0.8, 'reg_lambda': 5.0, 'verbosity': -1}
+2026-11-12 13:06:29,782 | INFO | lightgbm конфигурация 2: MAE=14.663, окон=2, 2.8 сек.
+2026-11-12 13:06:29,782 | INFO | lightgbm: конфигурация 3/8: {'n_estimators': 700, 'learning_rate': 0.03, 'num_leaves': 31, 'max_depth': 8, 'min_child_samples': 30, 'subsample': 0.8, 'subsample_freq': 1, 'colsample_bytree': 0.9, 'reg_lambda': 5.0, 'verbosity': -1}
+2026-11-12 13:06:33,022 | INFO | lightgbm конфигурация 3: MAE=15.223, окон=2, 3.2 сек.
+2026-11-12 13:06:33,022 | INFO | lightgbm: конфигурация 4/8: {'n_estimators': 300, 'learning_rate': 0.05, 'num_leaves': 31, 'max_depth': 8, 'min_child_samples': 50, 'subsample': 0.9, 'subsample_freq': 1, 'colsample_bytree': 0.8, 'reg_lambda': 10.0, 'verbosity': -1}
+2026-11-12 13:06:40,101 | INFO | lightgbm конфигурация 4: MAE=14.642, окон=2, 7.1 сек.
+2026-11-12 13:06:40,102 | INFO | lightgbm: конфигурация 5/8: {'n_estimators': 500, 'learning_rate': 0.03, 'num_leaves': 31, 'max_depth': -1, 'min_child_samples': 50, 'subsample': 0.8, 'subsample_freq': 1, 'colsample_bytree': 0.9, 'reg_lambda': 10.0, 'verbosity': -1}
+2026-11-12 13:06:43,642 | INFO | lightgbm конфигурация 5: MAE=15.391, окон=2, 3.5 сек.
+2026-11-12 13:06:43,643 | INFO | lightgbm: конфигурация 6/8: {'n_estimators': 700, 'learning_rate': 0.02, 'num_leaves': 63, 'max_depth': 10, 'min_child_samples': 50, 'subsample': 0.9, 'subsample_freq': 1, 'colsample_bytree': 0.9, 'reg_lambda': 10.0, 'verbosity': -1}
+2026-11-12 13:06:47,486 | INFO | lightgbm конфигурация 6: MAE=15.674, окон=2, 3.8 сек.
+2026-11-12 13:06:47,486 | INFO | lightgbm: конфигурация 7/8: {'n_estimators': 400, 'learning_rate': 0.05, 'num_leaves': 63, 'max_depth': 10, 'min_child_samples': 80, 'subsample': 0.8, 'subsample_freq': 1, 'colsample_bytree': 1.0, 'reg_lambda': 5.0, 'verbosity': -1}
+2026-11-12 13:06:50,739 | INFO | lightgbm конфигурация 7: MAE=15.901, окон=2, 3.3 сек.
+2026-11-12 13:06:50,739 | INFO | lightgbm: конфигурация 8/8: {'n_estimators': 600, 'learning_rate': 0.03, 'num_leaves': 15, 'max_depth': -1, 'min_child_samples': 80, 'subsample': 0.9, 'subsample_freq': 1, 'colsample_bytree': 1.0, 'reg_lambda': 20.0, 'verbosity': -1}
+2026-11-12 13:06:53,904 | INFO | lightgbm конфигурация 8: MAE=15.099, окон=2, 3.2 сек.
+2026-11-12 13:07:47,524 | INFO | lightgbm: validation MAE=14.186, test MAE=16.511
+2026-11-12 13:07:47,524 | INFO | catboost: конфигурация 1/8: {'iterations': 300, 'depth': 5, 'learning_rate': 0.05, 'l2_leaf_reg': 3.0, 'random_strength': 1.0, 'bagging_temperature': 0.5, 'verbose': False, 'allow_writing_files': False, 'thread_count': -1}
+2026-11-12 13:07:51,022 | INFO | catboost конфигурация 1: MAE=15.161, окон=2, 3.5 сек.
+2026-11-12 13:07:51,025 | INFO | catboost: конфигурация 2/8: {'iterations': 500, 'depth': 5, 'learning_rate': 0.03, 'l2_leaf_reg': 5.0, 'random_strength': 1.0, 'bagging_temperature': 1.0, 'verbose': False, 'allow_writing_files': False, 'thread_count': -1}
+2026-11-12 13:07:57,871 | INFO | catboost конфигурация 2: MAE=15.214, окон=2, 6.8 сек.
+2026-11-12 13:07:57,872 | INFO | catboost: конфигурация 3/8: {'iterations': 700, 'depth': 6, 'learning_rate': 0.03, 'l2_leaf_reg': 5.0, 'random_strength': 0.5, 'bagging_temperature': 1.0, 'verbose': False, 'allow_writing_files': False, 'thread_count': -1}
+2026-11-12 13:08:02,011 | INFO | catboost конфигурация 3: MAE=15.343, окон=2, 4.1 сек.
+2026-11-12 13:08:02,011 | INFO | catboost: конфигурация 4/8: {'iterations': 300, 'depth': 7, 'learning_rate': 0.05, 'l2_leaf_reg': 5.0, 'random_strength': 1.0, 'bagging_temperature': 0.5, 'verbose': False, 'allow_writing_files': False, 'thread_count': -1}
+2026-11-12 13:08:04,951 | INFO | catboost конфигурация 4: MAE=14.902, окон=2, 2.9 сек.
+2026-11-12 13:08:04,952 | INFO | catboost: конфигурация 5/8: {'iterations': 500, 'depth': 7, 'learning_rate': 0.03, 'l2_leaf_reg': 7.0, 'random_strength': 1.0, 'bagging_temperature': 1.0, 'verbose': False, 'allow_writing_files': False, 'thread_count': -1}
+2026-11-12 13:08:09,049 | INFO | catboost конфигурация 5: MAE=14.823, окон=2, 4.1 сек.
+2026-11-12 13:08:09,049 | INFO | catboost: конфигурация 6/8: {'iterations': 700, 'depth': 7, 'learning_rate': 0.02, 'l2_leaf_reg': 7.0, 'random_strength': 0.5, 'bagging_temperature': 2.0, 'verbose': False, 'allow_writing_files': False, 'thread_count': -1}
+2026-11-12 13:08:13,658 | INFO | catboost конфигурация 6: MAE=15.195, окон=2, 4.6 сек.
+2026-11-12 13:08:13,658 | INFO | catboost: конфигурация 7/8: {'iterations': 400, 'depth': 8, 'learning_rate': 0.05, 'l2_leaf_reg': 9.0, 'random_strength': 1.0, 'bagging_temperature': 1.0, 'verbose': False, 'allow_writing_files': False, 'thread_count': -1}
+2026-11-12 13:08:17,749 | INFO | catboost конфигурация 7: MAE=14.910, окон=2, 4.1 сек.
+2026-11-12 13:08:17,749 | INFO | catboost: конфигурация 8/8: {'iterations': 600, 'depth': 8, 'learning_rate': 0.03, 'l2_leaf_reg': 9.0, 'random_strength': 0.5, 'bagging_temperature': 2.0, 'verbose': False, 'allow_writing_files': False, 'thread_count': -1}
+2026-11-12 13:08:24,116 | INFO | catboost конфигурация 8: MAE=15.594, окон=2, 6.4 сек.
+2026-11-12 13:09:06,535 | INFO | catboost: validation MAE=14.739, test MAE=17.113
+2026-11-12 13:09:06,868 | INFO | Обучение завершено. Результаты сохранены в: C:\Users\Cyber\Desktop\Универ\Магистратура\2курс\2курс_1семестр\Air_taxi\model_runs\20261112_125051
+2026-11-12 13:09:06,868 | INFO | Журнал обучения: C:\Users\Cyber\Desktop\Универ\Магистратура\2курс\2курс_1семестр\Air_taxi\run_history\model_training.log
